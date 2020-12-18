@@ -1,0 +1,309 @@
+body {
+  font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+	font-weight: 800;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+/* ------------------------------- Header ----------------------------------- */
+
+header {
+	margin: 0 auto;
+	width: 100%;
+  height: 80px;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 5px 10px #ccc;
+}
+
+header .header-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+}
+
+header a.logo {
+  float: left;
+  font-size: 25px;
+  font-weight: 300;
+  width: 220px;
+  text-align: left;
+  margin: 10px 0 0 10px;
+}
+
+header a.logo:hover {
+  opacity: .8;
+}
+
+header a.logo img {
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+header .menu {
+  float: right;
+  margin: 30px 20px 0 0;
+}
+
+header .menu a {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0 10px;
+  text-align: left;
+}
+
+
+/* ------------------------------- Main ----------------------------------- */
+
+main {
+	display: block;
+  background-image: url("../gfx/baggrund.jpg");
+  background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	min-height: 300px;
+}
+
+main .main-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+main img {
+	float: right;
+	margin: 0 20px;
+}
+
+main .text {
+	width: 40%;
+	margin-left: 20px;
+	float: left;
+}
+
+main .text i {
+	font-size: 32px;
+	margin-right: 20px;
+}
+
+main .text a {
+    color:#000;
+}
+main .text a:hover {
+    opacity:50%;
+}
+
+/* ------------------------------- Section ----------------------------------- */
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+section .section-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+	text-align: center;
+}
+
+section .section-container h2 {
+	font-weight: 300 !important;
+	font-size: 40px;
+  line-height: 1.1em;
+}
+
+#about .section-container {
+	display: block;
+  background-color: #fff;
+	padding: 50px 0;
+
+}
+
+#about .section-container img {
+	float: left;
+	width: 40%;
+	margin: 0 30px 20px 0;
+}
+
+#about .section-container p {
+	text-align: left;
+  margin-left: 10%;
+
+/*manden der rykkes*/
+}
+
+#experience {
+	display: block;
+	background-image: url("../gfx/baggrund2.jpg");
+  background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+}
+
+#experience .section-container {
+	color: white;
+	display: table;
+	text-align: center;
+	padding-bottom: 80px;
+	text-shadow: 2px 2px 3px rgba(44, 66, 81, .8);
+}
+
+.experience-section {
+	margin: 10px;
+	background-color: #0b4b5f;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: inline-block;
+	text-shadow: 0 0 8px rgba(255, 255, 255, .5);
+}
+
+.experience-section h4 {
+	margin: 50px 0 0 0;
+	color: white;
+}
+
+.experience-section h1 {
+	font-family: 'Open Sans', sans-serif  !important;
+	font-weight: 300 !important;
+	font-size: 60px;
+  line-height: 1.4em;
+	margin: 0;
+}
+
+/* ------------------------------- Gallery ----------------------------------- */
+
+
+#mywork {
+	display: block;
+	background-color: #fff;
+}
+
+#mywork .section-container {
+	padding-bottom: 80px;
+}
+
+.mywork-section {
+	margin: 20px;
+	width: 45%;
+	display: inline-block;
+	background-color: #f1f1f1;
+}
+
+.mywork-section p {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+
+footer {
+	background-color: #0b4b5f;
+	padding-bottom: 50px;
+}
+
+footer .footer-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+	text-align: center;
+	color: white;
+}
+
+footer .footer-container h2 {
+	font-weight: 300 !important;
+	font-size: 40px;
+  line-height: 1.1em;
+}
+
+footer a {
+  color:#fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+  opacity:50%;
+}
+
+
+
+@media screen and (max-width: 638px) {
+
+  header {
+      text-align: center;
+  }
+
+  header a.logo {
+    float: none;
+    font-size: 20px;
+    width: 160px;
+  }
+
+  header a.logo img {
+  height: 30px;
+  margin: 10px 5px 0 0;
+  float: none;
+  }
+
+  header .menu {
+  float: none;
+    margin: 5px 0 0 0;
+  }
+
+  header .menu a {
+  font-size: 14px;
+  padding: 0 5px;
+  }
+
+
+  main .main-container {
+  text-align: center;
+	width: 100%;
+}
+
+  main .text {
+  width: 50%;
+  margin: 0 auto;
+  float: none;
+}
+
+  main img {
+  width: 40%;
+  float: none;
+  margin-bottom: -5px;
+
+}
+  .mywork-section {
+  width: 100%;
+  margin: 20px 0;
+}
+
+}
